@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;// fixed with the shortcut cntrol+shift
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="/Users/shubhambhardwaj/eclipse-workspace/cucumberdemo/src/main/java/Features/hookTag.feature",
+@CucumberOptions(features="/Users/shubhambhardwaj/eclipse-workspace/cucumberdemo/src/main/java/Features/demo.feature",
 		glue = {"StepDefinition"},
 		plugin = { "pretty" , "html:target/cucumber-reports" },
 		monochrome = true,
